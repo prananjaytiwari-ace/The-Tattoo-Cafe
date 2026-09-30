@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Tattoo-Cafe-Jaipur</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-inner">
+
+            <a href="index.html" class="logo">
+                <span>TATTOO</span>
+                <small>CAFE & LOUNGE</small>
+            </a>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <nav id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+
+            <a href="contact.html" class="nav-btn">Book a Table</a>
+
+        </div>
+    </header>
+
+
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">COME SAY HELLO</p>
+            <h1>Contact Us</h1>
+            <p>
+                Planning a dinner, date or simply craving good coffee?
+                We would love to have you.
+            </p>
+        </div>
+    </section>
+
+
+    <main>
+
+        <section class="section">
+
+            <div class="container contact-grid">
+
+                <!-- Form -->
+                <div class="contact-form">
+
+                    <p class="eyebrow dark">RESERVATIONS</p>
+
+                    <h2>Book your table.</h2>
+
+                    <p class="muted">
+                        Fill in the details below and our team will get back to you.
+                    </p>
+
+                    <form>
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="service">What are you looking for?</label>
+
+                            <select id="service" name="service" required>
+                                <option value="">Select an option</option>
+                                <option value="table">Table Reservation</option>
+                                <option value="birthday">Birthday Celebration</option>
+                                <option value="date">Date Night</option>
+                                <option value="group">Group Booking</option>
+                                <option value="event">Private Event</option>
+                            </select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your plan..."
+                                required></textarea>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-dark">
+                            Send Reservation Request
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+                <!-- Contact Details -->
+                <aside class="contact-details">
+
+                    <div class="contact-box">
+                        <span class="contact-icon">📍</span>
+
+                        <h3>Find Us</h3>
+
+                        <p>
+                            Near Hawa Mahal,<br>
+                            Pink City, Jaipur,<br>
+                            Rajasthan 302002
+                        </p>
+                    </div>
+
+
+                    <div class="contact-box">
+                        <span class="contact-icon">☎</span>
+
+                        <h3>Call Us</h3>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+                    </div>
+
+
+                    <div class="contact-box">
+                        <span class="contact-icon">◷</span>
+
+                        <h3>Opening Hours</h3>
+
+                        <p>
+                            Monday – Sunday<br>
+                            11:00 AM – 11:00 PM
+                        </p>
+                    </div>
+
+
+                    <div class="contact-box">
+                        <span class="contact-icon">✉</span>
+
+                        <h3>Email</h3>
+
+                        <a href="mailto:hello@tattoocafejaipur.com">
+                            hello@tattoocafejaipur.com
+                        </a>
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- Map -->
+        <section class="map-section">
+
+            <iframe title="Map showing Hawa Mahal Jaipur"
+                src="https://www.google.com/maps?q=Hawa+Mahal+Jaipur&output=embed" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </section>
+
+
+        <section class="cta-section">
+            <div class="container">
+
+                <p class="eyebrow">SEE YOU SOON</p>
+
+                <h2>
+                    Jaipur is better
+                    with coffee.
+                </h2>
+
+                <a href="tel:+919876543210" class="btn btn-primary">
+                    Call & Reserve
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+                <a href="index.html" class="logo footer-logo">
+                    <span>TATTOO</span>
+                    <small>CAFE & LOUNGE</small>
+                </a>
+
+                <p>
+                    Rooftop café vibes in the heart of Jaipur.
+                </p>
+            </div>
+
+            <div>
+                <h4>Explore</h4>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+
+            <div>
+                <h4>Opening Hours</h4>
+                <p>Mon – Sun</p>
+                <p>11:00 AM – 11:00 PM</p>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <p>+91 98765 43210</p>
+                <p>Jaipur, Rajasthan</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Tattoo Cafe & Lounge.
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
